@@ -1,0 +1,75 @@
+body {
+    background: linear-gradient(to right, lightblue, white);
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+}
+
+.content-box {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+}
+
+input[type="text"], button {
+    background: rgba(255, 255, 255, 0.5);
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease;
+}
+
+input[type="text"] {
+    width: calc(100% - 22px);
+    font-size: 16px;
+}
+
+button {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    transition: transform 0.2s ease; 
+}
+
+button:hover {
+    transform: scale(1.05); 
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+h1 {
+    font-family: 'Comic Sans MS', 'Arial', sans-serif;
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+#searchResults {
+    font-family: 'Comic Sans MS', 'Arial', sans-serif;
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    font-family: 'Comic Sans MS', 'Arial', sans-serif;
+    color: #333;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    background: rgba(255, 255, 255, 0.7);
+}
